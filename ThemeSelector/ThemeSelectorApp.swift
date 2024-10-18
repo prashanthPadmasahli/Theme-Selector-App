@@ -12,6 +12,7 @@ struct ThemeSelectorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(ThemeManager())
         }
     }
 }
